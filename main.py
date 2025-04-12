@@ -9,8 +9,20 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()  # Add this near the top of your imports
+# Get the directory containing your script
+BASE_DIR = Path(__file__).resolve().parent
+
+# Specify the path to your .env file
+env_path = BASE_DIR / '.env'
+
+print(f"Looking for .env file at: {env_path}")
+load_dotenv(dotenv_path=env_path)
+
+# You can also verify the loaded values immediately after load_dotenv
+print(f"Loaded SENDER_EMAIL: {os.getenv('SENDER_EMAIL')}")
+print(f"Environment variables loaded from: {env_path}")
 
 def download_pdf(url):
     """Download PDF from URL"""
@@ -139,6 +151,8 @@ def send_update_email(updates):
     sender_email = os.getenv('SENDER_EMAIL')
     sender_password = os.getenv('EMAIL_PASSWORD')
     receiver_email = "tombcgordon@gmail.com"
+
+    print('yurt', sender_email, sender_password)
     
     # Validate environment variables
     if not sender_email or not sender_password:

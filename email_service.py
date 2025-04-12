@@ -11,8 +11,8 @@ def send_update_email(updates):
         return
     
     # Email configuration
-    sender_email = "your-email@gmail.com"  # Replace with your email
-    sender_password = os.environ.get('EMAIL_PASSWORD')  # Store password in environment variable
+    sender_email = os.getenv('SENDER_EMAIL') 
+    sender_password = os.getenv('EMAIL_PASSWORD')
     receiver_email = "tombcgordon@gmail.com"
     
     # Create message
