@@ -4,6 +4,13 @@ import io
 import json
 import re
 from datetime import datetime
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Add this near the top of your imports
 
 def download_pdf(url):
     """Download PDF from URL"""
@@ -93,7 +100,7 @@ def parse_line(line):
         print(f"Error parsing line: {line}")
         print(f"Error details: {e}")
         return None
-
+    
 def compare_events(new_events, previous_events):
     """Compare new and previous events for changes in registration status or deadline"""
     updates = {}
@@ -121,6 +128,54 @@ def compare_events(new_events, previous_events):
                 updates[event_name] = changes
     
     return updates
+
+def send_update_email(updates):
+    """Send email with updates if any exist"""
+    if not updates:
+        print("No updates to send")
+        return
+    
+    # Email configuration
+    sender_email = os.getenv('SENDER_EMAIL')
+    sender_password = os.getenv('EMAIL_PASSWORD')
+    receiver_email = "tombcgordon@gmail.com"
+    
+    # Validate environment variables
+    if not sender_email or not sender_password:
+        raise ValueError("Missing email configuration. Please check your .env file.")
+    
+    # Create message
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = receiver_email
+    message["Subject"] = "IRONMAN Event Updates Detected"
+    
+    # Create the email body
+    body = "The following updates have been detected:\n\n"
+    
+    for event_name, changes in updates.items():
+        body += f"Event: {event_name}\n"
+        if 'registrationStatus' in changes:
+            body += f"Registration Status changed from '{changes['registrationStatus']['from']}' to '{changes['registrationStatus']['to']}'\n"
+        if 'registrationDeadline' in changes:
+            body += f"Registration Deadline changed from '{changes['registrationDeadline']['from']}' to '{changes['registrationDeadline']['to']}'\n"
+        body += "\n"
+    
+    # Add body to email
+    message.attach(MIMEText(body, "plain"))
+    
+    try:
+        # Create SMTP session
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            if not sender_password:
+                raise ValueError("Email password not found in environment variables")
+            
+            server.login(sender_email, sender_password)
+            text = message.as_string()
+            server.sendmail(sender_email, receiver_email, text)
+            print("Update email sent successfully")
+    except Exception as e:
+        print(f"Error sending email: {e}")
 
 def main():
     # PDF URL
@@ -162,6 +217,8 @@ def main():
     if updates:
         print("\nUpdates detected:")
         print(json.dumps(updates, indent=2))
+        # Send email with updates
+        send_update_email(updates)
     else:
         print("\nNo updates detected")
     
