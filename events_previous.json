@@ -1,0 +1,380 @@
+{
+  "events": [
+    {
+      "date": "4/13/2025",
+      "event": "IRONMAN 70.3 Brasília",
+      "prizePurse": "$15,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "CLOSED",
+      "registrationDeadline": "CLOSED"
+    },
+    {
+      "date": "4/27/2025",
+      "event": "IRONMAN 70.3 Peru",
+      "prizePurse": "$15,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "CLOSED",
+      "registrationDeadline": "CLOSED"
+    },
+    {
+      "date": "4/27/2025",
+      "event": "IRONMAN 70.3 Valencia",
+      "prizePurse": "$40,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "CLOSED",
+      "registrationDeadline": "CLOSED"
+    },
+    {
+      "date": "5/4/2025",
+      "event": "IRONMAN 70.3 Port Macquarie",
+      "prizePurse": "$25,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "CLOSED",
+      "registrationDeadline": "CLOSED"
+    },
+    {
+      "date": "5/4/2025",
+      "event": "IRONMAN 70.3 Venice- Jesolo",
+      "prizePurse": "$50,000",
+      "slotAllocation": "3WPRO/3MPRO",
+      "registrationStatus": "CLOSED",
+      "registrationDeadline": "CLOSED"
+    },
+    {
+      "date": "5/10/2025",
+      "event": "IRONMAN 70.3 St. George- North American Championship",
+      "prizePurse": "$75,000",
+      "slotAllocation": "4WPRO/4MPRO",
+      "registrationStatus": "Waitlist",
+      "registrationDeadline": "April 16th"
+    },
+    {
+      "date": "5/17/2025",
+      "event": "IRONMAN Lanzarote",
+      "prizePurse": "$25,000",
+      "slotAllocation": "3WPRO/3MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "May 1st"
+    },
+    {
+      "date": "5/18/2025",
+      "event": "IRONMAN 70.3 Aix-en-Provence",
+      "prizePurse": "$50,000",
+      "slotAllocation": "3WPRO/3MPRO",
+      "registrationStatus": "Waitlist",
+      "registrationDeadline": "April 20th"
+    },
+    {
+      "date": "5/18/2025",
+      "event": "IRONMAN 70.3 Chattanooga",
+      "prizePurse": "$40,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "April 24th"
+    },
+    {
+      "date": "5/25/2025",
+      "event": "IRONMAN 70.3 Kraichgau",
+      "prizePurse": "$40,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "May 1st"
+    },
+    {
+      "date": "6/1/2025",
+      "event": "IRONMAN Brasil",
+      "prizePurse": "$40,000",
+      "slotAllocation": "3WPRO/3MPRO",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "May 8th"
+    },
+    {
+      "date": "6/8/2025",
+      "event": "IRONMAN 70.3 Eagleman",
+      "prizePurse": "$50,000",
+      "slotAllocation": "3WPRO/3MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "May 15th"
+    },
+    {
+      "date": "6/15/2025",
+      "event": "IRONMAN Cairns",
+      "prizePurse": "$125,000",
+      "slotAllocation": "5WPRO/5MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "May 22nd"
+    },
+    {
+      "date": "6/22/2025",
+      "event": "IRONMAN 70.3 Westfriesland",
+      "prizePurse": "$25,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "May 29th"
+    },
+    {
+      "date": "6/29/2025",
+      "event": "IRONMAN 70.3 Nice",
+      "prizePurse": "$25,000",
+      "slotAllocation": "2WPRO/2MPRO",
+      "registrationStatus": "Open",
+      "registrationDeadline": "June 5th"
+    },
+    {
+      "date": "7/6/2025",
+      "event": "IRONMAN 70.3 Jonkoping European Championship",
+      "prizePurse": "$75,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "Open",
+      "registrationDeadline": "June 12th"
+    },
+    {
+      "date": "7/13/2025",
+      "event": "IRONMAN 70.3 Swansea",
+      "prizePurse": "$50,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "Open",
+      "registrationDeadline": "June 19th"
+    },
+    {
+      "date": "7/20/2025",
+      "event": "IRONMAN Lake Placid",
+      "prizePurse": "$125,000",
+      "slotAllocation": "4WPRO/4MPRO",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "7/20/2025",
+      "event": "IRONMAN 70.3 Ecuador",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "7/26/2025",
+      "event": "IRONMAN 70.3 Boise",
+      "prizePurse": "$40,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "8/3/2025",
+      "event": "IRONMAN 70.3 Krakow",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "8/10/2025",
+      "event": "IRONMAN 70.3 Lapu Lapu",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "8/10/2025",
+      "event": "IRONMAN 70.3 Rio de Janeiro",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "8/17/2025",
+      "event": "IRONMAN 70.3 Hradec Kralove",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "8/17/2025",
+      "event": "IRONMAN 70.3 Louisville",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD2025 IRONMAN 70.3 World Championship Qualifying DEADLINE"
+    },
+    {
+      "date": "8/31/2025",
+      "event": "IRONMAN 70.3 Zell am See-Kaprun",
+      "prizePurse": "$50,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/7/2025",
+      "event": "IRONMAN 70.3 Poznan",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/7/2025",
+      "event": "IRONMAN 70.3 Knokke-Heist, Belgium",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/7/2025",
+      "event": "IRONMAN 70.3 Santa Cruz",
+      "prizePurse": "$40,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/14/2025",
+      "event": "IRONMAN 70.3 Sunshine Coast",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/14/2025",
+      "event": "IRONMAN World Championship (MPRO)",
+      "prizePurse": "$375,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/21/2025",
+      "event": "IRONMAN Wales (WPRO)",
+      "prizePurse": "$50,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/21/2025",
+      "event": "IRONMAN 70.3 Italy Emilia-Romagna",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/21/2025",
+      "event": "IRONMAN 70.3 São Paulo",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/21/2025",
+      "event": "IRONMAN 70.3 Cozumel",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/28/2025",
+      "event": "IRONMAN Chattanooga",
+      "prizePurse": "$100,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "9/28/2025",
+      "event": "IRONMAN 70.3 Augusta",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "10/11/2025",
+      "event": "IRONMAN World Championship (WPRO)",
+      "prizePurse": "$375,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "10/19/2025",
+      "event": "IRONMAN 70.3 Portugal - Cascais",
+      "prizePurse": "$25,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "10/26/2025",
+      "event": "IRONMAN 70.3 Florianópolis Latin American Championship",
+      "prizePurse": "$50,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "11/1/2025",
+      "event": "IRONMAN 70.3 Langkawi",
+      "prizePurse": "$40,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "11/9/2025",
+      "event": "IRONMAN 70.3 World Championship",
+      "prizePurse": "$500,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "11/16/2025",
+      "event": "IRONMAN Arizona",
+      "prizePurse": "$100,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "11/23/2025",
+      "event": "IRONMAN Cozumel Latin American Championship",
+      "prizePurse": "$100,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "11/30/2025",
+      "event": "IRONMAN 70.3 Aracaju-Sergipe",
+      "prizePurse": "$15,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "2025 IRONMAN World Championship Qualifying Deadline"
+    },
+    {
+      "date": "12/7/2025",
+      "event": "IRONMAN 70.3 Indian Wells La Quinta",
+      "prizePurse": "$40,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    },
+    {
+      "date": "12/7/2025",
+      "event": "IRONMAN Western Australia Asia Pacific Championship",
+      "prizePurse": "$150,000",
+      "slotAllocation": "TBD",
+      "registrationStatus": "TBD",
+      "registrationDeadline": "TBD"
+    }
+  ]
+}
