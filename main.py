@@ -151,8 +151,6 @@ def send_update_email(updates):
     sender_email = os.getenv('SENDER_EMAIL')
     sender_password = os.getenv('EMAIL_PASSWORD')
     receiver_email = "tombcgordon@gmail.com"
-
-    print('yurt', sender_email, sender_password)
     
     # Validate environment variables
     if not sender_email or not sender_password:
